@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9088b3f0-74c4-4cc5-8528-ba6278f67c04" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Java/Division/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Java/Division/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Java/Division/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Java/Division/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Java/Division/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Java/Division/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Java/Division/Division.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Java/Division/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/JavaScript/code/division.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/JavaScript/code/division.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/JavaScript/division.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/JavaScript/division.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../division/Python/division.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Java/IfElse/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Java/IfElse/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Java/IfElse/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Java/IfElse/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Java/IfElse/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Java/IfElse/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Java/IfElse/IfElse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Java/IfElse/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/JavaScript/if-else.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/JavaScript/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/Python/if_else.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../if-else/rules.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2XfeX3xIimIZbq6smya1YA1q3Br" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/richardogujawa/Desktop/Builds/coding_challenges/easy/if-else/Java/IfElse",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9088b3f0-74c4-4cc5-8528-ba6278f67c04" name="Changes" comment="" />
+      <created>1699024598696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699024598696</updated>
+      <workItem from="1699024599742" duration="1403000" />
+      <workItem from="1699194701829" duration="622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

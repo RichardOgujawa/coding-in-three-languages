@@ -1,0 +1,24 @@
+{
+  "name": "coding_challenges",
+  "version": "1.0.0",
+  "description": "This repository is a collection of coding challenges solved in **Java, Python and Javascript**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch-all --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardOgujawa/coding-in-three-languages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardOgujawa/coding-in-three-languages/issues"
+  },
+  "homepage": "https://github.com/RichardOgujawa/coding-in-three-languages#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "jest": "^29.7.0"
+  }
+}

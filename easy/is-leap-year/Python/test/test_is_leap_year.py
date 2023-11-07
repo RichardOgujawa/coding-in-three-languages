@@ -1,19 +1,6 @@
 from is_leap_year import is_leap_year
 
 
-def main():
-    test_1800_is_not_leap_year()
-    test_1900_is_not_leap_year()
-    test_1990_is_not_leap_year()
-    test_2000_is_a_leap_year()
-    test_2004_is_a_leap_year()
-    test_2100_is_not_leap_year()
-    test_2200_is_not_leap_year()
-    test_2300_is_not_leap_year()
-    test_2400_is_a_leap_year()
-    test_2500_is_not_leap_year()
-
-
 def test_1800_is_not_leap_year():
     # Equivalent to expect().toBeFalsy() in jest
     assert not is_leap_year(1800)
