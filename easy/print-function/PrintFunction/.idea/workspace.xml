@@ -5,34 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6765dd88-a299-4957-8bf9-0de7b4ecfeb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Java/Division/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Java/Division/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Java/Division/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Java/Division/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Java/Division/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Java/Division/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Java/Division/Division.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Java/Division/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/JavaScript/code/division.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/JavaScript/code/division.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/JavaScript/division.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/JavaScript/division.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../division/Python/division.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../is-leap-year/Python/test/test_is_leap_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../is-leap-year/Python/test/test_is_leap_year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Java/IfElse/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Java/IfElse/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Java/IfElse/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Java/IfElse/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Java/IfElse/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Java/IfElse/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Java/IfElse/IfElse.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Java/IfElse/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/JavaScript/if-else.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/JavaScript/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/Python/if_else.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../if-else/rules.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../loops/Java/Loops/src/test/java/org/example/LoopsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../list-comprehensions/JavaScript/code/list-comprehension.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../list-comprehensions/JavaScript/code/list-comprehension.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../list-comprehensions/Python/list_comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../list-comprehensions/Python/list_comprehension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../list-comprehensions/Python/test/test_list_comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../list-comprehensions/Python/test/test_list_comprehension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../list-comprehensions/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../list-comprehensions/task.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,29 +25,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2XqwrVEH9av2CnFziTEAz1PQ1DD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -89,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699370118832</updated>
       <workItem from="1699370119919" duration="791000" />
+      <workItem from="1699371075531" duration="626000" />
     </task>
     <servers />
   </component>
