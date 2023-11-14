@@ -17,3 +17,38 @@ This error occured when running pytest to gather and run the tests in test\_\*.p
 This particular error was occuring because of the naming convention for tests not being adhered to. According to a [Cewing](https://stackoverflow.com/users/97856/cewing) on Stack Overflow:
 
 > `pytest gathers tests according to a naming convention. By default any file that is to contain tests must be named starting with test_, classes that hold tests must be named starting with Test, and any function in a file that should be treated as a test must also start with test_`
+
+## **<u>LHS must be of type 'any', 'number', ...</u>**
+
+"The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type. "
+
+When using .sort() method make sure that the array is an array of numbers.
+
+## **<u>'set' object is not subscriptable</u>**
+
+Sets can't be indexed into or sliced because it has no inherent order.
+
+## **<u>'ModuleNotFoundError'</u>**
+
+- Naming the directory in which the python script was stored 'code' was producing this error. However, once changed to another name it worked just fine. To make sure this truly was the issue, the coding challenge directory was isolated from the other ones in a new workspace and pytest was run again with the directory being called 'code' and the error remianed, until the dir was renamed.
+- This doesn't always necessarily mean that the module isn't there, or has the wrong naming convention, or is improperly imported due to a mismatch in the name of the file and the name of the module imported in the import statement, it can be something as simple as there being a leading or trailing space in the `__init__.py` file. in your test directory.
+
+## **<u>Accepting User Input in JavaScript</u>**
+
+- The readline module from Node.js can be used to accept user input in JavaScript
+
+## **<u>Array Initializer not allowed here.</u>**
+
+Java doesn't directly support array initializers for lists (initializers, in programming languages reger to when initial values are provided for the elements of an array when you declare it. )
+
+If using an ArrayList constructor that accepts a collection, an array initializer cannot be passed in directly, rather to initialise a List like with a predefined set of elements, the Arrays.asList method need to be used to convert the arrat into a list.
+
+```
+ List<StudentData> dataset = new ArrayList<>(Arrays.asList(
+                new StudentData("Harry", 37.21f),
+                new StudentData("Berry", 37.21f),
+                new StudentData("Tina", 37.2f),
+                new StudentData("Akriti", 41f),
+                new StudentData("Harsh", 39f)
+));
+```

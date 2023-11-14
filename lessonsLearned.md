@@ -17,10 +17,51 @@ It's best to avoid using nested loops for a host of reasons including:
 - The presence of multiple nested loops indicates that there may be a more efficient way to do what you're trying to do
 - It increases time complexity
 
-## **<u>'set' object is not subscriptable</u>**
+## **<u>Array.from and new Set()</u>**
 
-Sets can't be indexed into or sliced because it has no inherent order.
+To create a new set from an array use new Set(arr), but to create a new array from an existing set use Array.from()
 
-## **<u>'ModuleNotFoundError'</u>**
+## **<u>JSON.Parse()</u>**
 
-This doesn't always necessarily mean that the module isn't there, or has the wrong naming convention, or is improperly imported due to a mismatch in the name of the file and the name of the module imported in the import statement, it can be something as simple as there being a leading or trailing space in the `__init__.py` file. in your test directory.
+Can also be used to convert arrays written as strings to actual arrays
+
+## **<u>Arrays.sort() vs Collections.sort()</u>**
+
+- Use Arrays.sort() when dealing with arrays of primitive types or arrays of objects that already implement 'Comparable' interface.
+
+```
+int[] numbers = {5, 2, 8, 1, 3};
+Arrays.sort(numbers);
+```
+
+- Use Collections.sort() when working with 'List' objects, especially if the elements of the list are elements which implement the 'Comparable' interface.
+
+```
+List<Float> floatList = new ArrayList<>();
+floatList.add(5.3f);
+floatList.add(2.1f);
+floatList.add(8.7f);
+Collections.sort(floatList);
+```
+
+Also use it when you want to define custom sorting orders. For example, sorting based on a specific element, like name or grade.
+
+```
+List<Person> peopleList = new ArrayList<>();
+// Add people to the list
+Collections.sort(peopleList, Comparator.comparing(Person::getName));
+```
+
+Essentially if it seems like something simple use Arrays.sort(), but if this doesn't work it's probably a bit more complex than anticipated so try Collections.sort()
+
+## **<u>Non-Null Assertion Operator</u>**
+
+This is used to assert to the TypeScript compiler that the result of an expression is not null. For example:
+
+`name : string = names.shift();`
+
+This will get the first item from the array, however, names may not be defined elsewhere, but rather is something that is going to be defined at a later stage, therefore as of right now, the result of names.shift() would be undefined. However, because it is understood that at this point in the code, names.shift() will hold a string value, and therefore not be undefined, or some null value, a non-null assertion operator '!' can be placed at the end of the expression to tell the TypeScript compiler that.
+
+## **<u>Record vs Class</u>**
+
+A class isn't always required, sometimes a record will suffice especially if the purpose of the class is going to primarily be for data storage, and it doesn't have much complexity in terms of it's behaviour/functionality.
