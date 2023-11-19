@@ -2,7 +2,7 @@ def find_the_percentage(student_marks, name) -> float:
     accumulator = 0
     for score in student_marks[name]:
         accumulator += score
-    return accumulator/3
+    return format(accumulator/3, ".2f")
 
 
 if __name__ == '__main__':

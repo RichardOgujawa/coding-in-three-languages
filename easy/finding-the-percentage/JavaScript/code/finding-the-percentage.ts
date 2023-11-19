@@ -1,6 +1,5 @@
-type stringNum = string | number;
-
 const readline = require('readline');
+type stringNum = string | number;
 let numOfEntries: number;
 let selectedStudent: string;
 
