@@ -65,3 +65,30 @@ This will get the first item from the array, however, names may not be defined e
 ## **<u>Record vs Class</u>**
 
 A class isn't always required, sometimes a record will suffice especially if the purpose of the class is going to primarily be for data storage, and it doesn't have much complexity in terms of it's behaviour/functionality.
+
+## **<u>map()</u>**
+
+The map function in Python 3 returns an interator, as opposed to a list like it did in Python 2. So if what is required is a list as opposed to just an iterator (to be able to access list specific methods for example), then the map function needs to be wrapped in a list constructor.
+
+## **<u>printStackTree()</u>**
+
+PrintStackTree may not be the best practice for handling exceptions in production code. A logging framework is often recommnded instead for more robust and configurable logging. For example:
+
+```
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class Example {
+    private static final Logger logger = Logger.getLogger(Example.class.getName());
+
+    public static void main(String[] args) {
+        try {
+            // Your code that might throw an exception
+            throw new RuntimeException("Something went wrong!");
+        } catch (Exception e) {
+            // Logging the exception instead of printing the stack trace
+            logger.log(Level.SEVERE, "An exception occurred", e);
+        }
+    }
+}
+```
