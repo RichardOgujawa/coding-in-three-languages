@@ -161,7 +161,7 @@ How it works is that it replaces the console.log function with a mock function c
 Then afterwards a simple clean up is performed to reset everything to it's original state, and the process is repeated, before and after each each test.
 
 ```
-import { staircase } from '../code/staircase';
+const staircase = require('../code/staircase');
 
 // Mock console.log to capture the output
 const originalConsoleLog = console.log; //Used to store the original console.log function
@@ -207,3 +207,8 @@ describe('staircase function', () => {
 Buffers are temporary data stores to help with data management whilst processing it.
 
 Streams on the other hand are flows of data, or a sequence of data made available over time. Streams are used to represent a flow of data that can be continuously processed or consumed. The key characteristic of a stream is that it allows data to be processed piece by piece, rather than requiring the entire dataset to be loaded into memory at once.
+
+## **<u>Stream methods</u>**
+
+- .boxed() is used to convert primitives into wrapper objects, i.e. int to Integer
+- .mapToInt() is used to go from wrapper objects to primitives, for example `mapToInt(Integer::intValue)`
