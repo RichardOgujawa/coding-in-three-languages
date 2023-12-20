@@ -52,3 +52,9 @@ If using an ArrayList constructor that accepts a collection, an array initialize
                 new StudentData("Harsh", 39f)
 ));
 ```
+
+## **<u>Could not be resolved from source</u>**
+
+If you have the library already installed then the issue is that you're using the wring interpreter most likely.
+
+Change the Python Interpreter by pressing CMD + SHIFT + P to open the command palette and the type 'Python Interpreter' and then choose the one with Global beside it.

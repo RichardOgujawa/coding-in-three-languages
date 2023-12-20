@@ -101,7 +101,7 @@ Run this in the terminal:
 tsc <file-name> --watch
 ```
 
-## **<u>Watching TypeScript Files()</u>**
+## **<u>Double Indexing</u>**
 
 If you have an n x n array, use double indexing ('multi-dimensional indexing') to access elements nested in the array, as it has a lower time complexity than using nested for loops. Double Indexing has a time complexity of O(n), a nested loop has a time complexity of O(n^2)
 
